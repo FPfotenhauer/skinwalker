@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>skinwalker.de</title>
+  <meta name="description" content="Der Blick von meinem Balkon." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header id="hero" class="hero">
+    <div class="hero-content">
+      <h1>skinwalker.de</h1>
+      <p>Der Blick von meinem Balkon &mdash; meine Lieblingsaussicht.</p>
+    </div>
+  </header>
+
+  <main>
+    <p class="intro">
+      Diese Aussicht begleitet mich seit Jahren, bei Sonnenuntergang, im
+      Regen und in klaren Nächten. Bei jedem Aufruf dieser Seite zeigt der
+      Header ein zufälliges Bild aus dieser Sammlung.
+    </p>
+
+    <section class="posts" id="posts">
+
+      <!--
+        Neuer Beitrag: diesen kompletten <article class="post">-Block
+        kopieren und Datum, Überschrift, Bildpfad/Alt-Text und den Text
+        anpassen. Bild vorher mit scripts/prepare-images.py nach
+        site/img/pics/ aufbereiten lassen.
+      -->
+      <article class="post">
+        <p class="post-date">28. Juli 2026</p>
+        <h2 class="post-title">Super Wetter im Garten</h2>
+        <img
+          class="post-image"
+          src="img/pics/2026-07-28-super-wetter-im-garten.jpg"
+          alt="Sonniger Garten mit Grill, Terrasse und Schatten unter Bäumen"
+          loading="lazy"
+        />
+        <p class="post-text">
+          Dieses Jahr ist das Wetter optimal für den Garten. Da hält man sich gerne im Schatten auf.
+        </p>
+      </article>
+
+      <article class="post">
+        <p class="post-date">27. Juli 2026</p>
+        <h2 class="post-title">Espresso-Tonic perfekt für die Hitze</h2>
+        <img
+          class="post-image"
+          src="img/pics/pxl_20260624_141933177.jpg"
+          alt="Ein Glas Espresso-Tonic mit Rosmarin-Garnitur auf einem Tisch, im Hintergrund der Balkon"
+          loading="lazy"
+        />
+        <p class="post-text">
+          Die geniale Abwechslung für die heißen Tage. Ein Espresso-Tonic
+          verschönert die Aussicht vom Balkon noch mehr&hellip;
+        </p>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 skinwalker.de &middot; <a href="impressum.html">Impressum</a></p>
+  </footer>
+
+  <script src="js/hero.js"></script>
+</body>
+</html>
